@@ -121,9 +121,9 @@ async def get_thumb(videoid):
         draw = ImageDraw.Draw(image1)
 
         try:
-            font_title = ImageFont.truetype("ThakurMusic/assets/font.ttf", 45)
-            font_details = ImageFont.truetype("ThakurMusic/assets/font2.ttf", 30)
-            font_watermark = ImageFont.truetype("ThakurMusic/assets/font2.ttf", 25)
+            font_title = ImageFont.truetype("VaishuMusic/assets/font.ttf", 45)
+            font_details = ImageFont.truetype("VaishuMusic/assets/font2.ttf", 30)
+            font_watermark = ImageFont.truetype("VaishuMusic/assets/font2.ttf", 25)
         except:
             font_title = ImageFont.truetype("arial.ttf", 45)
             font_details = ImageFont.truetype("arial.ttf", 30)
